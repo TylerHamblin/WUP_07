@@ -79,3 +79,6 @@ Again the Fisher and Chisquare tests show that a man is at least twice (2.3x) as
 
 ## Conclusions
 
+Our first step was loading and viewing the kRdata set and confirming that it was a categorical (result) described by a categorical (Sex). By using the Cat~Cat helper files from the CandP folder we found code chunks to run a ggplot that already suggested men were more prone to death from COVID-19. Next we ran a numerical test and inferential test in which the results and p-values confirmed the hypothesis that men who contract COVID-19 are more likely to die when compared to women, about twice as likely. We can confidently answer the original question that no sex is not independent of dying when looking at this particular data set. 
+
+
