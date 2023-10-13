@@ -69,8 +69,13 @@ This numerical chart confirms the results of the ggplot prior to it. In a total 
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+Again the Fisher and Chisquare tests show that a man is at least twice (2.3x) as likely to die from the contraction of COVID-19 than a woman is. The p-values given from this code chunk are all consistent around the same range and although they are not as minuscule as values we have seen before, it still suggests statistical variation.  
 
 ## Conclusions
 
