@@ -29,7 +29,7 @@ state of a patient must be died or alive - we adjust that as well
 
 
 
-
+## Methods
 
 
 ## Graphical results - use ggplot commands to do this  
