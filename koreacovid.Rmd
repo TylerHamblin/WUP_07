@@ -56,11 +56,15 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 In viewing the first chart we see that more women contracted COVID-19 compared to the amount of men included in the study. When looking at the second chart we see that a much higher percentage of men passed away from the virus. This second graph is important because with out it we would have assumed that the pandemic was worse for women. After comparing the percentage of deaths and survivals to the number of people in the count, there is a statistical suggestion that men fared worse. 
 
 
-
-
-
-  
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This numerical chart confirms the results of the ggplot prior to it. In a total of 100 deaths, 36 of them would be women and the other 64 men. According to the second chunk of data it is over twice as likely for a man to die of COVID-19 than for a woman. 
 
 
 ## Inferential results 
